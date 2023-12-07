@@ -1,0 +1,38 @@
+body{
+    background-color: #092635;
+}
+
+
+.baslik {
+    color:#9EC8B9;
+}
+
+h1 {
+    color: #9EC8B9;
+}
+
+
+
+
+#anabaslik{
+    color:#9EC8B9;
+}
+
+.kenarlik{
+    border-style: solid;
+    border-width: 15px;
+    border-color: #ffffff;
+    border-radius: 50px;
+    
+
+}
+
+.kenarlik2{
+    border: 3px solid #ffffff;
+}
+
+.kenarlik3{
+  border-left: 5px solid #ee0707;
+  border-right: 5px solid #ee0707;
+
+}
