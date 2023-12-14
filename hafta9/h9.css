@@ -1,0 +1,25 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; }
+.metin{
+font-size: 1rem;
+font-style: italic;
+font-weight: 900;
+text-align: justify;
+text-transform: capitalize;
+text-indent: 20px;
+letter-spacing: -2px;
+word-spacing: 10px;
+line-height: 30px;
+white-space: normal ;
+}
+#yazi{    font-size: 20px;
+}
+h1{
+    font-variant: small-caps;
+    text-shadow: 5px 5px 10px #ff0000;
+}
+
+a{
+    text-decoration: none;
+    color:#000000;}
