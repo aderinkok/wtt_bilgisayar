@@ -1,0 +1,32 @@
+.kutu{
+   background-color: rgb(173, 199, 180);
+   border:5px solid #ff0000;
+   /*
+   max-width: 100px;
+  min-width: 750px;
+  */
+  width: 400px;
+    height:100px;
+    /*
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 50px 100px;  TOP-BOTTOM / LEFT RIGHT
+    padding: 50px 60px 70px; TOP / LEFT-RIGHT / BOTTOM
+    padding: 50px 60px 70px 80px; TOP / RIGHT / BOTTOM / LEFT
+    */
+    padding: 50px;
+    margin: 10px;
+    /*
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 50px 100px;  TOP-BOTTOM / LEFT RIGHT
+    margin: 50px 60px 70px; TOP / LEFT-RIGHT / BOTTOM
+    margin: 50px 60px 70px 80px; TOP / RIGHT / BOTTOM /
+    */
+
+}
+
