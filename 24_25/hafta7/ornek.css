@@ -1,0 +1,38 @@
+p{
+
+    color:#ff0000;
+    /*
+    border: solid #0000ff 5px  ;
+    */
+    border-bottom: 6px solid red;
+    
+}
+
+#metin {
+
+    color: #00ff00;
+}
+
+.aciklama{
+
+    color: #0000ff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 15px;
+}
+
+* {
+   
+    color: rgb(216, 24, 168);
+  }
+
+  body{
+    /*
+    background: #ffffff url("img_tree.png") no-repeat right top;
+    */
+    background-image: url("bg_solid.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color:#9AA6B2;
+  }
