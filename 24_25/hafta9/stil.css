@@ -1,0 +1,44 @@
+p{
+    border:1px solid #000;
+    margin:50px; /*top-right-bottom-left*/
+    /*
+    margin:50px 20px;top-bottom ------ right-left
+    margin: 30px 40px 50px;  top /left-right / bottom 
+    margin: 10px 20px 30px 40px;  top right bottom left
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    */
+    padding:50px;
+        /*
+    padding:50px 20px;top-bottom ------ right-left
+    padding: 30px 40px 50px;  top /left-right / bottom 
+    padding: 10px 20px 30px 40px;  top right bottom left
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    */
+}
+
+.kutu{
+    height:100px;
+    width:100px;
+    margin:auto;
+    padding:5px;
+}
+
+.kirmizi{
+    background-color: #f00;
+
+    
+}
+.yesil{
+    background-color: #0f0;
+}
+.mavi{
+    background-color: #00f;
+}
