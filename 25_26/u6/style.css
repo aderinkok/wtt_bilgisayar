@@ -1,0 +1,73 @@
+body {
+background-color: #d7e7e0;
+background-image: url('test.jpeg');
+background-repeat: no-repeat;
+background-position: right top;
+}
+
+#icerik{
+    /*
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff0000;
+    */
+
+    border: 1px solid #f00;
+    /*
+    border-left: 1px solid #f00;
+
+    */
+    border-radius: 5px;
+
+     /*
+    border-left-color:#f00;
+    border-left-width: 3px;
+    border-left-style: solid;
+   
+   
+    */
+}
+
+
+h1 {
+
+
+    color:#ff0000;
+        
+    /*
+    #FF0000 : Kırmızı
+    #00FF00 : Yeşil
+    #0000FF : Mavi
+    #000000 : Siyah
+    #FFFFFF : Beyaz
+    */
+   
+
+    /* 
+    color: hsl(0, 100%, 50%);
+    color: rgb(255, 99, 71);
+    color:darkorchid;
+    */
+    /* This is a single-line comment */
+
+  
+}
+
+#baslik {
+    color:chocolate;
+}
+
+.basliklar{
+    color:darkgreen;
+}
+/*
+*{
+    color:#000;
+}
+
+h1,h2,h3,h4{
+    
+}
+
+*/
+
