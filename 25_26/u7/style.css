@@ -1,0 +1,38 @@
+
+
+.aciklama{
+color:#FDB5CE;
+background-color: #16476A;
+text-align: center;
+ text-decoration-line: underline;
+ text-decoration-color: #f00;
+ text-decoration-style: wavy;
+ text-transform: uppercase;
+ text-indent: 50px;
+ letter-spacing: 5px;
+ line-height: 0.8;
+ word-spacing: 10px;
+ white-space: normal;
+ font-family: Roboto, Times, serif;
+ font-style: normal;
+ /* 900 800 700 600 ... */
+ font-weight: bolder;
+
+
+}
+
+body{
+    background-color: #132440;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+h1{
+    color:#3B9797;
+    text-shadow: 2px 2px 5px #3B9797;
+    font-variant: small-caps;
+    font-size: 40px;
+}
