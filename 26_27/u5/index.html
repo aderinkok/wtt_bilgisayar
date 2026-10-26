@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta name="keywords" content="Html, Css, form">
+    <meta name="description" content="Açıklama metni">
+    <meta name="author" content="Yazar">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+
+<body>
+
+    <!--
+    
+    
+    
+    Yorum satırı
+    
+    
+    
+    -->
+
+
+    <h1>Form</h1>
+
+    <form action="sayfa.php" method="POST">
+        <label for="ad">Ad:</label> <input type="text" name="ad" id="isim" value="Test" disabled/>
+        <label for="soyad">SoyAd:</label> <input type="text" name="soyad" id="isim" minlength="8" maxlength="20" value="Test" required/>
+        <label for="test">Test:</label> <input type="text" name="test" id="test" minlength="8" maxlength="20" value="readonly" readonly/>
+
+        <br />
+
+        <input type="button" value="Test" />
+        <input type="submit" value="Gönder" />
+        <input type="reset" value="Sıfırla" /><br />
+        <input type="color" /><br />
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br>
+            <hr/>
+
+        <input type="radio" id="erkek" name="cinsiyet" value="0">
+        <label for="erkek">Erkek</label><br/>
+        <input type="radio" id="kadin" name="cinsiyet" value="1">
+        <label for="kadin">Kadın</label><br/>
+        <input type="email" placeholder="E-posta adresinizi giriniz" /><br/>
+        <input type="hidden" value="veri" /><br/>
+        <input type="file" /><br/>
+        <label for="sifre">Şifre:</label>
+        <input type="password" name="sifre" placeholder="Şifrenizi giriniz" /><br/>
+
+        <input type="image" src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Submit" width="48" height="48"><br/>
+        
+        <input type="number" name="sayi" min="1" max="5"><br/>
+
+
+        <input type="range" name="points" min="0" max="10" disabled><br/>
+        <input type="search" name="q" placeholder="Search..."><br/>
+            <br/>
+        <textarea name="metin" placeholder="Metin giriniz" cols="10" rows="10"></textarea>
+            <br/>
+        <select name="sehir" disabled>
+            <option value="-1">--Şehir Seçiniz--</option>
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara" >Ankara</option>
+            <option value="izmir" selected>İzmir</option>
+        </select>
+        <select name="sehir2" >
+            <option value="-1">--Şehir Seçiniz--</option>
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara" >Ankara</option>
+            <option value="izmir" selected>İzmir</option>
+        </select>
+        <select name="sehir3" multiple>
+            
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara" >Ankara</option>
+            <option value="izmir">İzmir</option>
+        </select>
+
+        <input type="date"><br/>
+        <input type="datetime"><br/><br/>
+        <input type="datetime-local"><br/>
+    </form>
+
+</body>
+
+</html>
