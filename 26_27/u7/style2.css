@@ -26,5 +26,17 @@ body{
     /*background-color:black;*/
     background-repeat:no-repeat;
     background-position: right top;
+
+
+
+    /*
+    
+   background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+
+  background: #ffffff url("img_tree.png") no-repeat right top;
+    */
     
 }
