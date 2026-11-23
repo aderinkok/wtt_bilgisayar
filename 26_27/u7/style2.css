@@ -1,0 +1,30 @@
+.metin{
+    font-size:30px;
+    color:white;
+}
+.kenarlik{
+    border-style:dotted;
+    border-width: 5px;
+    border-color:black;
+    /*border: 5px dotted black;*/
+    color:chocolate;
+}
+
+.kenarlik2{
+    border-left-style:solid;
+    border-left-width: 5px;
+    border-left-color:red;
+}
+
+.kenarlik3{
+    border: 5px solid green;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url("kucuk.png");
+    /*background-color:black;*/
+    background-repeat:no-repeat;
+    background-position: right top;
+    
+}
